@@ -21,4 +21,9 @@ div {
    * vertically in the process.
    */
   line-height: 160px;
+  /*
+   * 22 February 2025
+   * Centers the box horizontally
+   */
+  margin: auto;
 }
