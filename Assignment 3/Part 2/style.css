@@ -15,4 +15,10 @@ div {
    * Gives a reasonable width for a large box
    */
   width: 200px;
+  /*
+   * 22 February 2025
+   * Gives a reasonable height for a large box, centering the text
+   * vertically in the process.
+   */
+  line-height: 160px;
 }
