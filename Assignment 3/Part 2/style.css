@@ -7,6 +7,7 @@
 
 html {
   font-family: sans-serif;
+  font-size: 16px;
 }
 
 div {
@@ -31,4 +32,11 @@ div {
    * Centers the text within the box
    */
   text-align: center;
+  /*
+   * 22 February 2025
+   * Gives a slight increase in font size, to around 17-18 pixel
+   * computed style. The root elem font size is 16px. 18/16 is 1.125
+   * while 17/16 is 1.0625. I met roughly in the middle with 1.1.
+   */
+  font-size: 1.1rem;
 }
