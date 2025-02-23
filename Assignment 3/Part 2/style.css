@@ -66,4 +66,16 @@ div {
    * colour, but a slightly darker shade.
    */
   border: 1px solid darkred;
+  /*
+   * 22 February 2025
+   * Gives linear semi-transparent black gradient that goes toward the
+   * bottom right corner. Completely transparent at the start, grading
+   * to around 0.2 opacity by 30% along, and remaining at the same
+   * colour until the end.
+   */
+  background-image: linear-gradient(
+    135deg,
+    #00000000,
+    #00000033 30%
+  );
 }
