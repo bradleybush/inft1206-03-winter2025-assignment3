@@ -84,3 +84,19 @@ h1, h2 {
   font-family: 'josefinslab-bold', sans-serif;
   letter-spacing: 2px;
 }
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+}
+
+nav li a {
+  font-size: 2.5rem;
+}
