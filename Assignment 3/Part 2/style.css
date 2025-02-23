@@ -50,4 +50,9 @@ div {
    * Gives a contrasting colour for the text
    */
   colour: white;
+  /*
+   * 22 February 2025
+   * Gives a black text shadow
+   */
+  text-shadow: 1px 1px 1px black;
 }
