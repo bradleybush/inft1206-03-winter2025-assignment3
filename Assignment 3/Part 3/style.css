@@ -108,3 +108,25 @@ nav li a {
 section h2 + p {
   text-indent: 20px;
 }
+
+a:link, a:visited, a:focus, a:hover {
+  color: #a66;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+a {
+  outline: none;
+}
+
+a:active {
+  color: red;
+}
+
+a:not([href="#"]) {
+  background: url(external-link-52.png) no-repeat 100%;
+  padding-right: 1em;
+  background-size: 1em 1em;
+}
