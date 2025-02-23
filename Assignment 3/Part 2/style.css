@@ -45,4 +45,9 @@ div {
    * its background colour.
    */
   background-colour: red;
+  /*
+   * 22 February 2025
+   * Gives a contrasting colour for the text
+   */
+  colour: white;
 }
