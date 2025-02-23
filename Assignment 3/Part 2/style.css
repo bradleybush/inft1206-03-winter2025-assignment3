@@ -26,4 +26,9 @@ div {
    * Centers the box horizontally
    */
   margin: auto;
+  /*
+   * 22 February 2025
+   * Centers the text within the box
+   */
+  text-align: center;
 }
