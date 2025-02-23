@@ -78,4 +78,15 @@ div {
     #00000000,
     #00000033 30%
   );
+  /*
+   * 22 February 2025
+   * Adds multiple box shadows. One standard box shadow to make the box
+   * look slightly raised off the page. The other two are inset box
+   * shadows - a semi-transparent white shadow near the top left and a
+   * semi-transparent black shadow near the bottom right - to add to the
+   * nice raised 3D look of the box.
+   */
+  box-shadow: 2px 2px 6px black,
+              2px 2px 2px inset #ffffff90,
+              -2px -2px 2px inset #00000090;
 }
