@@ -55,4 +55,9 @@ div {
    * Gives a black text shadow
    */
   text-shadow: 1px 1px 1px black;
+  /*
+   * 22 February 2025
+   * Gives a fairly subtle border radius
+   */
+  border-radius: 10px;
 }
