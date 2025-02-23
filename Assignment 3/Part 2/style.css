@@ -44,12 +44,12 @@ div {
    * Gives a base colour for the design. Gives the box this colour as
    * its background colour.
    */
-  background-colour: red;
+  background-color: red;
   /*
    * 22 February 2025
    * Gives a contrasting colour for the text
    */
-  colour: white;
+  color: white;
   /*
    * 22 February 2025
    * Gives a black text shadow
