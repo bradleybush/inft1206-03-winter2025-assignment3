@@ -60,4 +60,10 @@ div {
    * Gives a fairly subtle border radius
    */
   border-radius: 10px;
+  /*
+   * 22 February 2025
+   * Gives a 1-pixel solid border with a colour similar to the base
+   * colour, but a slightly darker shade.
+   */
+  border: 1px solid darkred;
 }
