@@ -51,4 +51,34 @@ header, footer {
 
 /* WRITE YOUR CODE BELOW HERE */
 
+@font-face {
+    font-family: 'lovato-light';
+    src: url('Lovato-Light.eot');
+    src: url('Lovato-Light.eot?#iefix') format('embedded-opentype'),
+         url('Lovato-Light.woff2') format('woff2'),
+         url('Lovato-Light.woff') format('woff'),
+         url('Lovato-Light.ttf') format('truetype'),
+         url('Lovato-Light.svg#lovatolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
+@font-face {
+    font-family: 'josefinslab-bold';
+    src: url('JosefinSlab-Bold.eot');
+    src: url('JosefinSlab-Bold.eot?#iefix') format('embedded-opentype'),
+         url('JosefinSlab-Bold.woff2') format('woff2'),
+         url('JosefinSlab-Bold.woff') format('woff'),
+         url('JosefinSlab-Bold.ttf') format('truetype'),
+         url('JosefinSlab-Bold.svg#josefin_slabbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+  font-family: 'lovato-light', serif;
+}
+
+h1, h2 {
+  font-family: 'josefinslab-bold', sans-serif;
+}
