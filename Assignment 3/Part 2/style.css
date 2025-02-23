@@ -39,4 +39,10 @@ div {
    * while 17/16 is 1.0625. I met roughly in the middle with 1.1.
    */
   font-size: 1.1rem;
+  /*
+   * 22 February 2025
+   * Gives a base colour for the design. Gives the box this colour as
+   * its background colour.
+   */
+  background-colour: red;
 }
